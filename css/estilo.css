@@ -1,0 +1,76 @@
+
+
+
+h1{
+    text-align: center;
+    color: rgb(8, 8, 8);
+    
+}
+
+#encabezado{
+	float: right;
+	width: auto;
+	height: auto;
+    width: auto;
+	background:rgb(1, 255, 255);
+	text-align: auto;
+	margin: 2%;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+
+header{
+    padding: 20px;
+    background: -webkit-linear-gradient(left, #ffdcdc 0%, #ffffff 100%);
+    text-align: center;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.header2{
+    padding: 20px;
+    background: -webkit-linear-gradient(left, #2c2c2c 0%, #006f83 100%);
+    text-align: center;
+    margin: 30px;
+    border-radius: 10px;
+    background-image: url(../img/icono3.jpg);
+    background-attachment: fixed;
+}
+
+.button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+@media (min-width : 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+.encabezado{
+    margin: 40px 0;
+    color: rgb(255, 255, 255);
+}
+
+
+.card{
+    text-align: center;
+    border: 10px solid rgba(255, 255, 255, 0.05);
+    background: #1d2124;
+}
+
+.info-card{
+    padding: 10px 20px;
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    margin: 10%;
+    margin-top: 60px;
+    padding-top: 15px;
+    background: #1d2124;
+}
+
